@@ -6,10 +6,6 @@ spring:
     password: Passw0rd
     url: jdbc:mysql://47.98.112.246:3306/springcloud_sell?characterEncoding=utf8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 server:
   port: 8181
 
